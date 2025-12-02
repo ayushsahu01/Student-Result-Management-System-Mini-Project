@@ -1,4 +1,3 @@
-
 const API = "http://localhost:3001/students";
 
 export const getStudents = async () => (await fetch(API)).json();
